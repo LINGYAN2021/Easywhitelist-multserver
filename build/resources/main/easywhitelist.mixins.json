@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "xyz.nikitacartes.easywhitelist.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BannedPlayerListMixin",
+    "OperatorListMixin",
+    "PlayerManagerMixin",
+    "WhitelistCheckMixin",
+    "WhitelistMixin"
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

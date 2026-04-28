@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "xyz/nikitacartes/easywhitelist/mixin/BannedPlayerListMixin": {
+      "toString(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;": "Lnet/minecraft/class_3335;method_14649(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;"
+    },
+    "xyz/nikitacartes/easywhitelist/mixin/OperatorListMixin": {
+      "toString(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;": "Lnet/minecraft/class_3326;method_14619(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;"
+    },
+    "xyz/nikitacartes/easywhitelist/mixin/PlayerManagerMixin": {
+      "checkCanJoin": "Lnet/minecraft/class_3324;method_14586(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/class_2561;",
+      "isWhitelisted": "Lnet/minecraft/class_3324;method_14587(Lcom/mojang/authlib/GameProfile;)Z"
+    },
+    "xyz/nikitacartes/easywhitelist/mixin/WhitelistCheckMixin": {
+      "isAllowed": "Lnet/minecraft/class_3337;method_14653(Lcom/mojang/authlib/GameProfile;)Z"
+    },
+    "xyz/nikitacartes/easywhitelist/mixin/WhitelistMixin": {
+      "toString(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;": "Lnet/minecraft/class_3337;method_14652(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "xyz/nikitacartes/easywhitelist/mixin/BannedPlayerListMixin": {
+        "toString(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;": "Lnet/minecraft/class_3335;method_14649(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;"
+      },
+      "xyz/nikitacartes/easywhitelist/mixin/OperatorListMixin": {
+        "toString(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;": "Lnet/minecraft/class_3326;method_14619(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;"
+      },
+      "xyz/nikitacartes/easywhitelist/mixin/PlayerManagerMixin": {
+        "checkCanJoin": "Lnet/minecraft/class_3324;method_14586(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/class_2561;",
+        "isWhitelisted": "Lnet/minecraft/class_3324;method_14587(Lcom/mojang/authlib/GameProfile;)Z"
+      },
+      "xyz/nikitacartes/easywhitelist/mixin/WhitelistCheckMixin": {
+        "isAllowed": "Lnet/minecraft/class_3337;method_14653(Lcom/mojang/authlib/GameProfile;)Z"
+      },
+      "xyz/nikitacartes/easywhitelist/mixin/WhitelistMixin": {
+        "toString(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;": "Lnet/minecraft/class_3337;method_14652(Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;"
+      }
+    }
+  }
+}

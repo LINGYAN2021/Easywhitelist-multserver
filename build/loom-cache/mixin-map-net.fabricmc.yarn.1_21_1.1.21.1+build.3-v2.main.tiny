@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	xyz/nikitacartes/easywhitelist/mixin/PlayerManagerMixin	Lnet/minecraft/server/BannedPlayerList;	bannedProfiles	field_14344
